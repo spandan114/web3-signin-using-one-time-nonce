@@ -18,7 +18,7 @@ router.get('/:public_address/v1/nonce',async (req,res)=>{
           });
           await user.save();
         }
-        res.status(200).json({nonce: user.nonce});
+        res.status(200).json({nonce: user.nonce,isRegistered:user.isRegistered});
       } catch(err) {
         console.log(err.message);
         res.status(500).json({message: err.message});

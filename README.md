@@ -1,4 +1,5 @@
 # Login with Blockchain using one time nonce
+In the Ethereum context, signing a message allows us to verify that a piece of data was signed by a specific account, in other terms, it's a way to prove to a smart contract/human that an account approved a message. **Signing a message with a private or public key does not require interacting with the Ethereum network**.
 
 ![signmsg](https://user-images.githubusercontent.com/55044734/172062741-17009747-f182-41ef-a78a-1de8319d98d2.jpg)
 

@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 module.exports = async () => {
   try{
-    await mongoose.connect(`mongodb+srv://spandan:spandan1234@cluster0.3cnzz.mongodb.net/wallet_connection?retryWrites=true&w=majority`,{
+    await mongoose.connect('YOUR DATABASE URL',{
       useUnifiedTopology: true,
       useNewUrlParser: true,
     });
